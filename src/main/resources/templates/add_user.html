@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+  <meta charset="ISO-8859-1">
+  <title>add-new-user</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+
+<div style="margin-left: 4cm" >
+  <H1 style="font-weight: bold">Customer Details</H1>
+<form action="#" th:action="@{/api/v1/customer}" th:object="${customer}" method="post">
+<div class="row" >
+    <input th:field="*{firstName}"type="text" placeholder="First Name" class="form-control mb-4 col-4">
+  &nbsp
+  &nbsp
+    <input th:field="*{lastName}" type="text" placeholder="Last Name"class="form-control mb-4 col-4">
+</div>
+  <br/>
+  <br/>
+  <div class="row">
+    <input th:field="*{street}" type="text" placeholder="Street"class="form-control mb-4 col-4">
+    &nbsp
+    &nbsp
+    <input th:field="*{address}" type="text" placeholder="Address"class="form-control mb-4 col-4">
+</div>
+
+  <br/>
+  <br/>
+  <div class="row">
+    <input th:field="*{city}" type="text" placeholder="City"class="form-control mb-4 col-4">
+    &nbsp
+    &nbsp
+    <input th:field="*{state}" type="text" placeholder="State"class="form-control mb-4 col-4">
+  </div>
+  <br/>
+  <br/>
+  <div class = "row">
+    <input th:field="*{email}" type="text" placeholder="email"class="form-control mb-4 col-4">
+    &nbsp
+    &nbsp
+    <input th:field="*{phone}" type="text" placeholder="phone"class="form-control mb-4 col-4">
+    </div>
+  <br/>
+  </br>
+  <BUTTON type="submit"  class="btn btn-info col-2">ADD</BUTTON>
+</form>
+  <hr/>
+  <a th:href="@{/api/v1/customers}"><--</a>
+</div>
+</body>
+</html>
