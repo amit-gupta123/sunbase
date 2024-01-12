@@ -68,6 +68,5 @@
    ##### Author
     - Amit Gupta
 # ScreenShot
-    -login page
-    ![Screenshot (74)](https://github.com/amit-gupta123/sunbase/assets/56483239/81d199dd-ac2d-4ae4-afb6-5b9ccd04b547)
+shared in pdf file
 
