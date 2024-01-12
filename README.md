@@ -34,7 +34,6 @@
   http://localhost:8085/api/v1/customers
 ## Get Up and Running
   ### Installation
-  - ##
     1. IDE of your choice.
     2. MySQL database.
     3. Maven as build tool ( In case you need to install, in some ide already configured ).
