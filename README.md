@@ -65,3 +65,4 @@
   - ### Future Scope
         Since this is a mvp, It can be completed to make full fledged customer maanager application and can be scaled.
   And much more.
+  Author- Amit Gupta
