@@ -1,8 +1,8 @@
 # CRUD APPLICATION
 ## General Description:
     This is a crud based mvp, developed for demonstration purpose.
-    This is developed with keeping things in mind like, ( Readability, Extensibility, Modularity, Coding to interface principle, Seperation of concern, SOLID etc.)
-    So it can be fully developed to form a newm customer relationship management application. I have implemented it using Thymeleaf as ui, Spring boot as frameworj and MySQL as a database.
+    This is developed with keeping things in mind like, ( Readability, Extensibility, Modularity, Coding to interface principle, Seperation of concern, SOLID principle, etc.)
+    So it can be fully developed to form a new customer relationship management application. I have implemented it using Thymeleaf as ui, Spring boot as framework and MySQL as a database.
     
     
 ### What this project does?
